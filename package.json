@@ -1,0 +1,14 @@
+{
+  "name": "tilebag-api",
+  "version": "1.0.0",
+  "description": "Given a sequence of known and unknown characters of defined length and no spaces, return an array of matching words.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hutch Mathers",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
