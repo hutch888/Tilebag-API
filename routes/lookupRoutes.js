@@ -4,7 +4,6 @@ const lookup = require("../models/lookup");
 const router = express.Router();
 
 router.get("/:expression", (req, res, next) => {
-	//res.send("got request");
 	const re = req.params.expression;
 	lookup(re)
 		.then((result) => JSON.stringify(result))
