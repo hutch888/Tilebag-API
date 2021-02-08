@@ -1,5 +1,4 @@
-const importedObject = require("./sortedWords");
-const listOfLists = importedObject.listOfLists;
+const listOfLists = require("./sortedWords");
 
 async function lookup(searchSequence) {
 	const re = new RegExp(searchSequence);
