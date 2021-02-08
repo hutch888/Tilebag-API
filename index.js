@@ -12,10 +12,6 @@ app.use((req, res, next) => {
 
 app.use("/search", lookupRoutes);
 
-/* app.use("/search", (req, res, next) => {
-	console.log(lookupRoutes);
-}); */
-
 app.listen(8080, () => {
 	console.log("Server listening on port 8080.");
 });
